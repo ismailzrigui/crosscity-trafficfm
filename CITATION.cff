@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: "If you use this code package, please cite the repository."
+title: "CrossCity-TrafficFM Code Package"
+type: software
+authors:
+  - family-names: Zrigui
+    given-names: Ismail
+    email: izrigui@uae.ac.ma
+    affiliation: "National School of Applied Sciences of Tetouan, Abdelmalek Essaadi University, Morocco"
+  - family-names: Khoulji
+    given-names: Samira
+    email: skhoulji@uae.ac.ma
+    affiliation: "National School of Applied Sciences of Tetouan, Abdelmalek Essaadi University, Morocco"
+repository-code: "https://github.com/ismailzrigui/crosscity-trafficfm"
+date-released: "2026-06-24"
+license: MIT
+keywords:
+  - intelligent transportation systems
+  - urban mobility
+  - time series forecasting
+  - foundation-model readiness
+  - open benchmark
+  - reproducibility

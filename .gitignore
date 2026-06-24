@@ -1,0 +1,55 @@
+# Python and local environments
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Data generated or downloaded by the pipeline
+data/raw/
+data/interim/
+data/processed/
+
+# Local document/editor locks
+~$*.docx
+*.tmp
+
+# Local-only manuscript drafts and generated results
+paper/
+results/
+
+# Local-only scientific drafting/governance state
+AGENTS.md
+CHANGELOG_IA.md
+CONTEXT_COMPACT.md
+EXECUTION_STATUS.md
+TASKS_IA.md
+limitations.md
+docs/
+
+# LaTeX build by-products
+paper/*.aux
+paper/*.bbl
+paper/*.blg
+paper/*.log
+paper/*.out
+paper/*.toc
+paper/*.fls
+paper/*.fdb_latexmk
+paper/*.synctex.gz
+paper/main.pdf
+
+# Generated figures and non-Markdown generated tables can be regenerated
+results/figures/
+results/tables/*.csv
+results/tables/*.tex
+results/reports/*.json
+results/reports/*.txt
+results/reports/render_checks/
+
+# Repository-service metadata generated outside the core package
+.zenodo.json
+
+# OS files
+Thumbs.db
+.DS_Store

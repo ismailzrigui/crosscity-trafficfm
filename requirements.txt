@@ -1,0 +1,11 @@
+pandas
+pyarrow
+scikit-learn
+scipy
+matplotlib
+requests
+python-docx
+pdfplumber
+pypdf
+openpyxl
+pillow

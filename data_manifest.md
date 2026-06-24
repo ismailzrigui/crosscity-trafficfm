@@ -1,0 +1,22 @@
+# Data Manifest
+
+Access date: 2026-06-24
+
+| dataset | file | url | source_type | size_bytes | sha256 | rows | note |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| NYC TLC yellow taxi | data/raw/nyc_tlc/yellow_tripdata_2024-01.parquet | https://d37ci6vzurychx.cloudfront.net/trip-data/yellow_tripdata_2024-01.parquet | official parquet | 49961641 | c4d59da7bbc8abaeeeb1727947ee93d9891a71acb42854bd80db1571b2030510 | 2964624.0 |  |
+| NYC TLC yellow taxi | data/raw/nyc_tlc/yellow_tripdata_2024-02.parquet | https://d37ci6vzurychx.cloudfront.net/trip-data/yellow_tripdata_2024-02.parquet | official parquet | 50349284 | c76c43c18c6c6664080dd920baab4928988d5786a6b65980792ca7cd796f9f20 | 3007526.0 |  |
+| NYC TLC yellow taxi | data/raw/nyc_tlc/yellow_tripdata_2024-03.parquet | https://d37ci6vzurychx.cloudfront.net/trip-data/yellow_tripdata_2024-03.parquet | official parquet | 60078280 | 2d4cdc8fb96726cdd3803b13b02d2e61e71d45720aff0ebc693a8bdd1f249823 | 3582628.0 |  |
+| Chicago Taxi Trips | data/raw/chicago/chicago_taxi_daily_2024q1.json | https://data.cityofchicago.org/resource/ajtu-isnz.json?$select=date_trunc_ymd(trip_start_timestamp) as day, count(*) as trips&$where=trip_start_timestamp between '2024-01-01T00:00:00' and '2024-04-01T00:00:00'&$group=day&$order=day | official Socrata aggregate | 4773 | 1cf1631937a196e1e5d567a0f6238f052cfe4306c9ee4b3a3a005941861c79cf | 92.0 |  |
+| TfL Santander Cycle Hire | data/raw/tfl_cycle/01aJourneyDataExtract10Jan16-23Jan16.csv | https://cycling.data.tfl.gov.uk/usage-stats/01aJourneyDataExtract10Jan16-23Jan16.csv | official CSV | 34451153 | fe318502aea96ea7d6a942f04de3a446776cc67cd5ff4ab0bbd34fd0a5a4fc95 | 284587.0 |  |
+| TfL Santander Cycle Hire | data/raw/tfl_cycle/01bJourneyDataExtract24Jan16-06Feb16.csv | https://cycling.data.tfl.gov.uk/usage-stats/01bJourneyDataExtract24Jan16-06Feb16.csv | official CSV | 35486081 | e58adf01b0a71205945712d5b465779da07b6cccea7fa1ce6d085c3ea98decd1 | 292699.0 |  |
+| TfL Santander Cycle Hire | data/raw/tfl_cycle/02aJourneyDataExtract07Fe16-20Feb2016.csv | https://cycling.data.tfl.gov.uk/usage-stats/02aJourneyDataExtract07Fe16-20Feb2016.csv | official CSV | 33287674 | 170cb861bcbffcfeb84c8330230dcc557b22baef7bc11e2e8250057c6627920b | 274493.0 |  |
+| TfL Santander Cycle Hire | data/raw/tfl_cycle/02bJourneyDataExtract21Feb16-05Mar2016.csv | https://cycling.data.tfl.gov.uk/usage-stats/02bJourneyDataExtract21Feb16-05Mar2016.csv | official CSV | 34882871 | 8b5f8ce48081947e7806f911fce0c2b77370adfa3742a615eb49ea1b6b9e8206 | 287746.0 |  |
+| TfL Santander Cycle Hire | data/raw/tfl_cycle/03JourneyDataExtract06Mar2016-31Mar2016.csv | https://cycling.data.tfl.gov.uk/usage-stats/03JourneyDataExtract06Mar2016-31Mar2016.csv | official CSV | 67717329 | 1f0693c5996fd62b248946dc0b13ac4c15c27bac45e53ed44cb4106ed508bff1 | 557548.0 |  |
+| TfL Santander Cycle Hire | data/raw/tfl_cycle/04JourneyDataExtract01Apr2016-30Apr2016.csv | https://cycling.data.tfl.gov.uk/usage-stats/04JourneyDataExtract01Apr2016-30Apr2016.csv | official CSV | 94572397 | a16fa88b0c429894344db821add6c0bfdb6cd78951b475a8a86bd8e519ae65ed | 781709.0 |  |
+| OpenStreetMap Morocco readiness audit | data/raw/osm/casablanca_mobility_audit.json | https://overpass-api.de/api/interpreter | OSM Overpass JSON | 782177 | d494f1026345c8e7cfd55dcd1b6f37d254f0c86842425f31d710da3cb9d32432 |  | Casablanca |
+| OpenStreetMap Morocco readiness audit | data/raw/osm/rabat_mobility_audit.json | https://overpass-api.de/api/interpreter | OSM Overpass JSON | 395039 | 5a8746765d361563fc86aa83ccb689e843815e02fb1710cdc58831f410ec8bbb |  | Rabat |
+| OpenStreetMap Morocco readiness audit | data/raw/osm/marrakech_mobility_audit.json | https://overpass-api.de/api/interpreter | OSM Overpass JSON | 235005 | 69039a98e0fb3c3f9c089ca0ab9323413d4eed59b70d69fd524461e8edd7908c |  | Marrakech |
+| OpenStreetMap Morocco readiness audit | data/raw/osm/tangier_mobility_audit.json | https://overpass-api.de/api/interpreter | OSM Overpass JSON | 252715 | 31cf8ff843a665167fd1697638eb22930716c7eb3c4b3a5bed10c8dc38d09f0f |  | Tangier |
+| OpenStreetMap Morocco readiness audit | data/raw/osm/fes_mobility_audit.json | https://overpass-api.de/api/interpreter | OSM Overpass JSON | 42085 | 635bf848cdfadb80a1a400e88db71b3d6de7a02f1a1d8b1fec6307de009dc983 |  | Fes |
+| OpenStreetMap Morocco readiness audit | data/raw/osm/agadir_mobility_audit.json | https://overpass-api.de/api/interpreter | OSM Overpass JSON | 120846 | 1c344eebeb74d0e0ee067775222e3fd13d1a492ba5632449401f817618684b22 |  | Agadir |

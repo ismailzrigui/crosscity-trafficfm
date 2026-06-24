@@ -1,0 +1,16 @@
+name: crosscity-trafficfm
+channels:
+  - conda-forge
+dependencies:
+  - python>=3.10
+  - pandas
+  - pyarrow
+  - scikit-learn
+  - scipy
+  - matplotlib
+  - requests
+  - python-docx
+  - pdfplumber
+  - pypdf
+  - openpyxl
+  - pillow
